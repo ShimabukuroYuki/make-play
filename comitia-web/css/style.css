@@ -108,3 +108,54 @@ html,body{
 	overflow: hidden;
 }
 
+
+
+@media screen and (min-width: 768px) {
+	.copy p{
+		font-size: 30pt;
+	}
+
+	.arrow{
+		left: 46%;
+	}
+
+	.arrow img{
+		width: 170%;
+	}
+
+	.contents{
+		margin-top: 65%;
+		margin-bottom: 60%;
+		width: 100%;
+		left: 18%;
+	}
+
+	.title{
+		font-size: 20pt;
+	}
+
+	.contents img{
+		width: 45%;
+	}
+
+	.contents-text{
+		font-size: 15pt;
+		width: 70%;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
