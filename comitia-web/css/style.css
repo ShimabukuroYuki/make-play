@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,body{
+	width: 100%;
+	height: 100%;
+	background-color: #e6e6e6;
+}
+
+.top-slide1.slideInDown{
+	animation-delay: 0.3s;
+	animation-duration: 0.7s;
+	animation-timing-function:ease;
+}
+
+ .top-slide2.slideInUp{
+	animation-delay: 0.7s;
+	animation-duration: 0.7s;
+	animation-timing-function:ease;
+}
+
+.top-slide3.slideInDown{
+	animation-delay: 1.1s;
+	animation-duration: 0.7s;
+	animation-timing-function:ease;
+}
+
+.fadeIn{
+	animation-delay: 2.2s;
+	animation-duration: 0.8s;
+	animation-timing-function: ease;
+}
+
+.top-slide{
+	height: 100%;
+}
+
+.top-slide1{
+	float: left;
+	width: calc(100% / 3);
+	height: 100%;
+	background-image: url(../img/1.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.top-slide2{
+	float: left;
+	width: calc(100% / 3);
+	height: 100%;
+	background-image: url(../img/2.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+}
+
+.copy{
+	position: absolute;
+	text-align: center;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+
+.top-slide3{
+	float: left;
+	width: calc(100% / 3);
+	height: 100%;
+	background-image: url(../img/3.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.arrow{
+	position: absolute;
+	top: 91%;
+	left: 48.5%;
+	width: 4%;
+}
+
+
+.arrow img{
+	width: 70%;
+}
+
+.contents{
+	margin-top: 25%;
+	margin-bottom: 20%;
+	position: absolute;
+	left: 35%;
+}
+
+.contents-img img{
+	float: left;
+	width: 20%;
+	margin-right: 2%;
+}
+
+.contents-text{
+	font-size: 10pt;
+}
+
+
+.scroll-lock{
+	overflow: hidden;
+}
+
