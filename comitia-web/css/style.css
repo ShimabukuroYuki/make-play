@@ -12,19 +12,19 @@ html,body{
 .top-slide1.slideInDown{
 	animation-delay: 0.3s;
 	animation-duration: 0.7s;
-	animation-timing-function:ease;
+	animation-timing-function: ease;
 }
 
  .top-slide2.slideInUp{
 	animation-delay: 0.7s;
 	animation-duration: 0.7s;
-	animation-timing-function:ease;
+	animation-timing-function: ease;
 }
 
 .top-slide3.slideInDown{
 	animation-delay: 1.1s;
 	animation-duration: 0.7s;
-	animation-timing-function:ease;
+	animation-timing-function: ease;
 }
 
 .fadeIn{
@@ -87,13 +87,14 @@ html,body{
 
 
 .contents-wrapper{
-	margin-top: 100%;
-	margin-bottom: 70%;
+	width: 100%;
+	height: 100%;
+
 }
 
 .contents{
 	margin-left: 19%;
-
+	padding-top: 55%;
 }
 
 .title{
@@ -114,6 +115,10 @@ html,body{
 
 .scroll-lock{
 	overflow: hidden;
+}
+
+.contents-hide{
+	display: none;
 }
 
 

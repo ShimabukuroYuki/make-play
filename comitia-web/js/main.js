@@ -9,3 +9,10 @@ window.onload = function(){
 };
 
 
+window.onload = function(){
+	document.getElementById("contents").classList.add("contents-hide");
+
+	setTimeout(function (){
+    	document.getElementById("contents").classList.remove("contents-hide");
+  }, 2600)
+};
