@@ -66,7 +66,7 @@ strong{
 	width: calc(100% / 3);
 	height: 100%;
 	background-image: url(../img/anna.jpg);
-	background-position: 40%;
+	background-position: 30%;
 	background-size: cover;
 	background-repeat: no-repeat;
 	position: relative;
@@ -200,4 +200,85 @@ strong{
 
 .contents-hide{
 	display: none;
+}
+
+
+@media screen and (min-width: 700px) and (max-width: 1280px){
+
+	h2{
+		font-size: 30pt;
+	}
+
+	.contents1 p{
+		font-size: 15pt;
+	}
+
+	.contents2 p{
+		font-size: 15pt;
+	}
+
+	.contents3-img{
+		margin-bottom: -5%;
+	}
+
+	.contents3-text{
+		font-size: 15pt;
+	}
+
+	.detail{
+		font-size: 15pt;
+	}
+
+	.price{
+		font-size: 22pt;
+	}
+
+	.head{
+		font-size: 15pt;
+	}
+
+	.foot{
+		font-size: 20pt;
+	}
+
+
+
+@media screen and (min-width: 1281px){
+
+	h2{
+		font-size: 38pt;
+	}
+
+	.contents1 p{
+		font-size: 23pt;
+	}
+
+	.contents2 p{
+		font-size: 23pt;
+	}
+
+	.contents3-img{
+		margin-bottom: -5%;
+	}
+
+	.contents3-text{
+		font-size: 23pt;
+	}
+
+	.detail{
+		font-size: 23pt;
+	}
+
+	.price{
+		font-size: 30pt;
+	}
+
+	.head{
+		font-size: 23pt;
+	}
+
+	.foot{
+		font-size: 28pt;
+	}
+
 }
