@@ -11,6 +11,7 @@ html,body{
 
 h2{
 	font-family: TsukuMinPr6-D;
+	color: #E4AD5B;
 }
 
 strong{
@@ -125,7 +126,7 @@ strong{
 
 .contents3{
 	margin-left: 19%;
-	padding-top: 55%;
+	padding-top: 35%;
 }
 
 .title img{
@@ -156,7 +157,7 @@ strong{
 }
 
 .contents4{
-	margin-top: 25%;
+	margin-top: 35%;
 }
 
 .head{
@@ -168,6 +169,7 @@ strong{
 	text-align: center;
 	font-size: 13pt;
 	line-height: 1.3;
+	color: #E4AD5B;
 }
 
 .contents5{
