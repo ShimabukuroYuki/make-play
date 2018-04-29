@@ -203,11 +203,20 @@ strong{
 }
 
 
-@media screen and (min-width: 700px) and (max-width: 1280px){
+@media screen and (min-width: 700px){
 
 	h2{
 		font-size: 30pt;
 	}
+
+	.contents-wrapper{
+		width: 60%;
+		margin-left: 20%;
+	}
+
+	.contents1{
+	padding-top:30%; 
+}
 
 	.contents1 p{
 		font-size: 15pt;
@@ -240,10 +249,11 @@ strong{
 	.foot{
 		font-size: 20pt;
 	}
+}
 
 
 
-@media screen and (min-width: 1281px){
+/*@media screen and (min-width: 1281px){
 
 	h2{
 		font-size: 38pt;
@@ -282,3 +292,4 @@ strong{
 	}
 
 }
+*/
