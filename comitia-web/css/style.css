@@ -40,7 +40,8 @@ html,body{
 	float: left;
 	width: calc(100% / 3);
 	height: 100%;
-	background-image: url(../img/1.png);
+	background-image: url(../img/rena.jpg);
+	background-position: 50%;
 	background-size: cover;
 	background-repeat: no-repeat;
 }
@@ -49,7 +50,8 @@ html,body{
 	float: left;
 	width: calc(100% / 3);
 	height: 100%;
-	background-image: url(../img/2.png);
+	background-image: url(../img/anna.jpg);
+	background-position: 40%;
 	background-size: cover;
 	background-repeat: no-repeat;
 	position: relative;
@@ -134,10 +136,31 @@ html,body{
 }
 
 .detail{
+	margin-top: 5%;
 	font-size: 5pt;
 }
 
+.price{
+	font-size: 10pt;
+}
+
 .contents4{
+	margin-top: 25%;
+}
+
+.head{
+	text-align: center;
+	font-size: 8pt;
+	margin-bottom: 2%;
+}
+
+.foot{
+	text-align: center;
+	font-size: 13pt;
+	line-height: 1.3;
+}
+
+.contents5{
 	margin-left: 19%;
 	padding-top: 30%;
 	padding-bottom: 10%;
