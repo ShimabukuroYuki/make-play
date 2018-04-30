@@ -147,7 +147,6 @@ strong{
 .contents3-text{
 	font-size: 8pt;
 	width: 80%;
-	padding-top: 5%;
 }
 
 .price{
@@ -220,7 +219,7 @@ strong{
 
 	.contents1{
 	padding-top:30%; 
-}
+	}
 
 	.contents1 p{
 		font-size: 15pt;
@@ -255,45 +254,3 @@ strong{
 	}
 }
 
-
-
-/*@media screen and (min-width: 1281px){
-
-	h2{
-		font-size: 38pt;
-	}
-
-	.contents1 p{
-		font-size: 23pt;
-	}
-
-	.contents2 p{
-		font-size: 23pt;
-	}
-
-	.contents3-img{
-		margin-bottom: -5%;
-	}
-
-	.contents3-text{
-		font-size: 23pt;
-	}
-
-	.detail{
-		font-size: 23pt;
-	}
-
-	.price{
-		font-size: 30pt;
-	}
-
-	.head{
-		font-size: 23pt;
-	}
-
-	.foot{
-		font-size: 28pt;
-	}
-
-}
-*/
