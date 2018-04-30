@@ -209,6 +209,10 @@ strong{
 		font-size: 30pt;
 	}
 
+	.copy img{
+		width: 75%;
+	}
+
 	.contents-wrapper{
 		width: 60%;
 		margin-left: 20%;
